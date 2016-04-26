@@ -1,0 +1,5 @@
+name: inno quiz
+type: module
+description: 'Simple quiz module'
+package: inno_quiz
+core: 8.x

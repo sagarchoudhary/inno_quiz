@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: quiz
 type: quiz
-description: ''
+description: 'content type to save quiz information'
 help: ''
 new_revision: false
 preview_mode: 1

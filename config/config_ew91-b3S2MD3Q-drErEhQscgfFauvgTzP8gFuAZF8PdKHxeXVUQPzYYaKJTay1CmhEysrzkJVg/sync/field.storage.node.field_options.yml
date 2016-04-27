@@ -1,0 +1,19 @@
+uuid: 15d72010-bf53-48dc-8146-39117a90f6af
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_options
+field_name: field_options
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

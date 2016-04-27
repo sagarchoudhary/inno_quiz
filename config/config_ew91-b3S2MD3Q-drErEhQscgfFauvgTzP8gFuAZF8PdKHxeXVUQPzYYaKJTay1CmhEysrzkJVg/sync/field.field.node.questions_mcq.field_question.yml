@@ -1,0 +1,21 @@
+uuid: b0648d01-20b4-4fb7-80af-b7c3a018748a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_question
+    - node.type.questions_mcq
+  module:
+    - text
+id: node.questions_mcq.field_question
+field_name: field_question
+entity_type: node
+bundle: questions_mcq
+label: Question
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

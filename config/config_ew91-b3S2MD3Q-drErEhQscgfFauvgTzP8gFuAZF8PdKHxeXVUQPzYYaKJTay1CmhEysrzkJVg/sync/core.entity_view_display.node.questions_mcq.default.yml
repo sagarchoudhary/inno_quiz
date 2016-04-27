@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.questions_mcq.body
     - field.field.node.questions_mcq.field_difficulty
+    - field.field.node.questions_mcq.field_options
+    - field.field.node.questions_mcq.field_question
     - field.field.node.questions_mcq.field_subject
     - node.type.questions_mcq
   module:
@@ -28,6 +30,18 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+  field_options:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_question:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
   field_subject:
     weight: 102
     label: above

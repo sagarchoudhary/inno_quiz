@@ -1,0 +1,40 @@
+uuid: 50827f42-4b13-4df6-8dd9-2b6d3178dd69
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.questions_mcq.body
+    - field.field.node.questions_mcq.field_difficulty
+    - field.field.node.questions_mcq.field_subject
+    - node.type.questions_mcq
+  module:
+    - text
+    - user
+id: node.questions_mcq.default
+targetEntityType: node
+bundle: questions_mcq
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_difficulty:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_subject:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 100
+hidden: {  }

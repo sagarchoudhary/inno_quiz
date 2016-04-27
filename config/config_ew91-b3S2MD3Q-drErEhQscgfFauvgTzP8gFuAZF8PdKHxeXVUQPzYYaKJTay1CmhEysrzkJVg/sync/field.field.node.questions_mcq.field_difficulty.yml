@@ -1,0 +1,28 @@
+uuid: f52fafcd-58cd-4970-84e3-1215f3f6736b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_difficulty
+    - node.type.questions_mcq
+    - taxonomy.vocabulary.difficulty_level
+id: node.questions_mcq.field_difficulty
+field_name: field_difficulty
+entity_type: node
+bundle: questions_mcq
+label: Difficulty
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      difficulty_level: difficulty_level
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,24 @@
+uuid: 2b58011f-b193-4052-a3f8-abd2244f4c4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.quiz.body
+    - node.type.quiz
+  module:
+    - text
+    - user
+id: node.quiz.default
+targetEntityType: node
+bundle: quiz
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

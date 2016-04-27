@@ -1,0 +1,22 @@
+uuid: b31d5349-d9af-4457-92cb-3c26fcf6acc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.questions_mcq
+  module:
+    - text
+id: node.questions_mcq.body
+field_name: body
+entity_type: node
+bundle: questions_mcq
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

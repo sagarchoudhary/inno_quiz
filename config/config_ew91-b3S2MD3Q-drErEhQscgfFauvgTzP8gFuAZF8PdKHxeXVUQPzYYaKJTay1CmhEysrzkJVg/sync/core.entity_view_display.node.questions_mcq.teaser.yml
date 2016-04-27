@@ -1,0 +1,26 @@
+uuid: 7594911c-a1f7-430b-954c-73acec8091af
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.questions_mcq.body
+    - node.type.questions_mcq
+  module:
+    - text
+    - user
+id: node.questions_mcq.teaser
+targetEntityType: node
+bundle: questions_mcq
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
